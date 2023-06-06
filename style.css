@@ -1,0 +1,258 @@
+.display {
+    display: flex;
+}
+
+.box_title {
+    background-color: black;
+    width: 100px;
+    margin: 0;
+    margin-bottom: -10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.minoBox {
+    background-color: black;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: grid;
+    place-items: center;
+}
+
+.minoBox_child {
+    background-color: black;
+    text-align: center;
+    width: 80px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: grid;
+    place-items: center;
+}
+
+.minoBox_table {
+    margin: auto;
+}
+
+.minoBox_table td {
+    width: 12px;
+    height: 12px;
+    margin: none;
+    border: 2px solid black;
+}
+
+.minoBox_table td div {
+    position: absolute;
+    border-radius: 0.6px;
+    top: -0.75px;
+    left: -0.25px;
+    width: 14px;
+    height: 14px;
+}
+
+table {
+    overflow: hidden;
+    background-color: black;
+    border-collapse: collapse;
+    font-weight: bold;
+    margin-right: 10px;
+}
+td {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(128, 128, 128);
+    margin: 0;
+}
+td div {
+    position: absolute;
+    border-radius: 1px;
+    top: -1.25px;
+    left: -1.25px;
+    width: 21px;
+    height: 21px;
+}
+
+.color0 {
+    display: none;
+}
+.color1 {
+    display: block;
+    background-color: skyblue;
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid rgb(155, 226, 255);
+    border-right: 1.5px solid rgb(35, 106, 155);
+    border-bottom: 1.5px solid rgb(35, 106, 155);
+}
+.color2 {
+    display: block;
+    background-color: yellow;
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid rgb(255, 255, 192);
+    border-right: 1.5px solid rgb(128, 128, 0);
+    border-bottom: 1.5px solid rgb(128, 128, 0);
+}
+.color3 {
+    display: block;
+    background-color: red;
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid rgb(255, 192, 192);
+    border-right: 1.5px solid rgb(128, 0, 0);
+    border-bottom: 1.5px solid rgb(128, 0, 0);
+}
+.color4 {
+    display: block;
+    background-color: yellowgreen;
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid rgb(204, 255, 100);
+    border-right: 1.5px solid rgb(104, 155, 0);
+    border-bottom: 1.5px solid rgb(104, 155, 0);
+}
+.color5 {
+    display: block;
+    background-color: orange;
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid rgb(255, 225, 150);
+    border-right: 1.5px solid rgb(205, 115, 0);
+    border-bottom: 1.5px solid rgb(205, 115, 0);
+}
+.color6 {
+    display: block;
+    background-color: blue;
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid rgb(192, 192, 255);
+    border-right: 1.5px solid rgb(0, 0, 128);
+    border-bottom: 1.5px solid rgb(0, 0, 128);
+}
+.color7 {
+    display: block;
+    background-color: rgb(192, 0, 192);
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid rgb(255, 192, 255);
+    border-right: 1.5px solid rgb(128, 0, 128);
+    border-bottom: 1.5px solid rgb(128, 0, 128);
+}
+.color8 {
+    display: block;
+    background-color: rgb(192, 192, 192);
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid rgb(225, 225, 225);
+    border-right: 1.5px solid rgb(128, 128, 128);
+    border-bottom: 1.5px solid rgb(128, 128, 128);
+}
+.color9 {
+    display: none;
+}
+.minoBox_color0 {
+    display: none;
+}
+.minoBox_color1 {
+    display: block;
+    background-color: skyblue;
+    border-top: 1.3px solid white;
+    border-left: 1.3px solid rgb(155, 226, 255);
+    border-right: 1.3px solid rgb(35, 106, 155);
+    border-bottom: 1.3px solid rgb(35, 106, 155);
+}
+.minoBox_color2 {
+    display: block;
+    background-color: yellow;
+    border-top: 1.3px solid white;
+    border-left: 1.3px solid rgb(255, 255, 192);
+    border-right: 1.3px solid rgb(128, 128, 0);
+    border-bottom: 1.3px solid rgb(128, 128, 0);
+}
+.minoBox_color3 {
+    display: block;
+    background-color: red;
+    border-top: 1.3px solid white;
+    border-left: 1.3px solid rgb(255, 192, 192);
+    border-right: 1.3px solid rgb(128, 0, 0);
+    border-bottom: 1.3px solid rgb(128, 0, 0);
+}
+.minoBox_color4 {
+    display: block;
+    background-color: yellowgreen;
+    border-top: 1.3px solid white;
+    border-left: 1.3px solid rgb(204, 255, 100);
+    border-right: 1.3px solid rgb(104, 155, 0);
+    border-bottom: 1.3px solid rgb(104, 155, 0);
+}
+.minoBox_color5 {
+    display: block;
+    background-color: orange;
+    border-top: 1.3px solid white;
+    border-left: 1.3px solid rgb(255, 225, 150);
+    border-right: 1.3px solid rgb(205, 115, 0);
+    border-bottom: 1.3px solid rgb(205, 115, 0);
+}
+.minoBox_color6 {
+    display: block;
+    background-color: blue;
+    border-top: 1.3px solid white;
+    border-left: 1.3px solid rgb(192, 192, 255);
+    border-right: 1.3px solid rgb(0, 0, 128);
+    border-bottom: 1.3px solid rgb(0, 0, 128);
+}
+.minoBox_color7 {
+    display: block;
+    background-color: rgb(192, 0, 192);
+    border-top: 1.3px solid white;
+    border-left: 1.3px solid rgb(255, 192, 255);
+    border-right: 1.3px solid rgb(128, 0, 128);
+    border-bottom: 1.3px solid rgb(128, 0, 128);
+}
+.minoBox_color9 {
+    display: none;
+}
+.fell0 {
+    display: none;
+}
+.fell1 {
+    display: block;
+    background: radial-gradient(transparent, skyblue);
+    border: 1.5px solid rgb(155, 226, 255);
+}
+.fell2 {
+    display: block;
+    background: radial-gradient(transparent, yellow);
+    border: 1.5px solid yellow;
+}
+.fell3 {
+    display: block;
+    background: radial-gradient(transparent, red);
+    border: 1.5px solid rgb(255, 128, 128);
+}
+.fell4 {
+    display: block;
+    background: radial-gradient(transparent, yellowgreen);
+    border: 1.5px solid rgb(204, 255, 100);
+}
+.fell5 {
+    display: block;
+    background: radial-gradient(transparent, orange);
+    border: 1.5px solid rgb(255, 165, 0);
+}
+.fell6 {
+    display: block;
+    background: radial-gradient(transparent, rgb(50, 50, 255));
+    border: 1.5px solid rgb(128, 128, 255);
+}
+.fell7 {
+    display: block;
+    background: radial-gradient(transparent, rgb(192, 0, 192));
+    border: 1.5px solid rgb(240, 50, 240);
+}
+#line1 td {
+    height: 10px;
+}
+#line1 div {
+    top: -0.5px;
+    left: -1.25px;
+    height: 10.5px;
+}
